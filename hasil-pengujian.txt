@@ -1,0 +1,30 @@
+MINI APPLICATION OOP: PEMINJAMAN PERANGKAT LAB
+Nama: Rafael Maulana Prasetya | NIM: 20251020056
+
+=== DAFTAR PERANGKAT (POLYMORPHISM) ===
+LAB-IN-01 | Mouse Wireless | Kategori: Perangkat Input | Kondisi: Baik | Status: Tersedia
+Catatan: Periksa kabel atau baterai sebelum digunakan.
+LAB-NW-02 | Router Praktikum | Kategori: Perangkat Jaringan | Kondisi: Rusak | Status: Tersedia
+Catatan: Pastikan port dan koneksi jaringan berfungsi.
+
+-- UJI 1 — PEMINJAMAN NORMAL --
+Mouse Wireless berhasil dipinjam. Peminjam: Rafael Maulana Prasetya.
+
+-- UJI 2 — PINJAM ULANG PERANGKAT --
+Ditolak dengan aman: Mouse Wireless sedang dipinjam.
+
+-- UJI 3 — PENGEMBALIAN NORMAL --
+Mouse Wireless berhasil dikembalikan. Peminjam: Rafael Maulana Prasetya.
+
+-- UJI 4 — PERANGKAT RUSAK --
+Ditolak dengan aman: Router Praktikum tidak dapat dipinjam karena rusak.
+
+-- UJI 5 — KONDISI TIDAK VALID --
+Ditolak dengan aman: Kondisi perangkat tidak valid.
+
+-- UJI 6 — NAMA PERANGKAT KOSONG --
+Ditolak dengan aman: Nama perangkat tidak boleh kosong.
+
+=== STATUS AKHIR ===
+LAB-IN-01 | Mouse Wireless | Kategori: Perangkat Input | Kondisi: Baik | Status: Tersedia
+LAB-NW-02 | Router Praktikum | Kategori: Perangkat Jaringan | Kondisi: Rusak | Status: Tersedia
